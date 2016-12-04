@@ -1,1 +1,9 @@
-source .dotfiles/zsh/ohmy.zshrc
+dotfilebase=".dotfiles"
+
+source $dotfilebase/zsh/ohmy.zshrc
+
+source $dotfilebase/zsh/aliases
+
+source $dotfilebase/zsh/functions
+
+# source $dotfilebase/zsh/vars
