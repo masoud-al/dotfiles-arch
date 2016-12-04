@@ -7,3 +7,6 @@
 [submodule "dotbot-sync"]
 	path = dotbot-sync
 	url = https://github.com/j1r1k/dotbot-sync.git
+[submodule "oh-my-zsh"]
+	path = oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
