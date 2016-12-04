@@ -1,0 +1,23 @@
+[user]
+	name = Masoud
+
+[color]
+	ui = true
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+
+[core]
+  repositoryformatversion = 0
+  filemode = true
+  bare = false
+  logallrefupdates = true
+  ignorecase = true
+	autocrlf = input
+	safecrlf = true
+
+[push]
+	default = simple
+[credential]
+	helper = /usr/lib/git-core/git-credential-gnome-keyring

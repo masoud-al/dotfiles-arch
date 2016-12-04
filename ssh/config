@@ -1,0 +1,26 @@
+Host hpws1
+  ProxyCommand ssh -Y masoud@ssh.kandou.com -W %h:%p
+  
+Host iscpc1
+  ProxyCommand ssh -Y masoud@lth.epfl.ch -W %h:%p
+
+Host iscpc2
+  ProxyCommand ssh -Y masoud@lth.epfl.ch -W %h:%p
+
+#Host 10.160.11.191  
+#  ProxyCommand ssh -Y   -W %h:%p 
+  
+
+Host docker-skype
+  User      docker
+  Port      55555
+  HostName  127.0.0.1
+  RemoteForward 64713 localhost:4713
+  ForwardX11 yes
+
+#Host bitbucket.org
+# IdentityFile ~/.ssh/id_rsa_bitbucket_aekip
+
+Host aur.archlinux.org
+ IdentityFile ~/.ssh/id_rsa_aur
+
