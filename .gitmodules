@@ -1,3 +1,9 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule "dotbot-yaourt"]
+	path = dotbot-yaourt
+	url = https://github.com/niklas-heer/dotbot-yaourt
+[submodule "dotbot-sync"]
+	path = dotbot-sync
+	url = https://github.com/j1r1k/dotbot-sync.git
