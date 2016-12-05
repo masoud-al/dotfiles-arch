@@ -52,7 +52,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git archlinux command-not-found common-aliases git-extras git-flow git-hubflow github screen systemd tmux)
-plugins=(archlinux command-not-found common-aliases screen systemd history tmux git git-extras git-flow git-hubflow github)
+plugins=(archlinux command-not-found common-aliases screen systemd tmux git git-extras git-flow git-hubflow github)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration

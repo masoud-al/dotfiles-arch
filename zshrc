@@ -1,14 +1,10 @@
 dotfilebase=".dotfiles"
 
+HISTFILE=~/.zhistory
+
+# first source oh-my-zsh rc file
 source $dotfilebase/zsh/ohmy.zshrc
 
-source $dotfilebase/zsh/aliases
-
-source $dotfilebase/zsh/functions
-
-# source $dotfilebase/zsh/vars
-
-
-HISTSIZE=10000
-SAVEHIST=20000
+# source own files
+for config (~/$dotfilebase/zsh/*.zsh) source $config
 
