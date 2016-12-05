@@ -1,0 +1,11 @@
+# list of useful one-liners commands  
+
+
+# ArchLinux related
+
+# pacnew 
+updatedb  #to update locate
+locate --existing --regex "\.pac(new|save)$"
+
+
+

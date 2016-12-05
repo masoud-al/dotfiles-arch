@@ -17,5 +17,13 @@
     ~/.config/openbox:
         path: config/openbox/
         create: true
+    ~/.aspell.en.pws: aspell.en.pws
+    ~/.octaverc: octaverc
+    ~/.screenrc: screenrc
+    ~/.ipython/README:
+	path: ipython/README
+        create: true
+
+
 
 
