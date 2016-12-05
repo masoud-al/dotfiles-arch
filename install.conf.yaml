@@ -21,9 +21,6 @@
     ~/.octaverc: octaverc
     ~/.screenrc: screenrc
     ~/.ipython/README:
-	path: ipython/README
+        path: ipython/README
         create: true
-
-
-
 
