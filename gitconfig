@@ -19,5 +19,16 @@
 
 [push]
 	default = simple
+
 [credential]
 	helper = /usr/lib/git-core/git-credential-gnome-keyring
+
+[diff]
+	tool = meld
+	guitool = diffuse
+
+[difftool]
+	prompt = false
+
+[alias]
+	d = difftool

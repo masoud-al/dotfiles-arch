@@ -13,3 +13,8 @@ rtl_sdr  -f 60M -s 3.2M - | pv -cN rtl_sdr  > /dev/null
 
 rtl_fm -d 0 -f 102.6M -M wbfm | play -t raw -r 32k -es -b 16 -c 1 -V1 -
 
+
+#Kernel
+
+* to unbind a driver from a device
+echo -n "1-1.2:1.0" > /sys/bus/usb/drivers/usbhid/unbind
