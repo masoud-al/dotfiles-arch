@@ -5,21 +5,29 @@
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
-    ~/.gitconfig: gitconfig
+    ~/.gitconfig:
+        force: true
+        path: gitconfig
     ~/.ssh/config:
         path: ssh/config
         create: true
-    ~/.tmux.conf: tmux.conf
-    ~/.zprofile: zprofile
-    ~/.zshenv: zshenv
-    ~/.zshrc: zshrc
+    ~/.tmux.conf:
+        force: true
+    ~/.zprofile:
+        force: true
+    ~/.zshenv:
+        force: true
+        path: .zshenv
+    ~/.zshrc:
+        force: true
     ~/.xinitrc: xinitrc
     ~/.config/openbox:
         path: config/openbox/
         create: true
     ~/.aspell.en.pws: aspell.en.pws
     ~/.octaverc: octaverc
-    ~/.screenrc: screenrc
+    ~/.screenrc:
+        force: true
     ~/.ipython/README:
         path: ipython/README
         create: true

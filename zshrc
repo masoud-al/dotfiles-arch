@@ -1,4 +1,4 @@
-dotfilebase=".dotfiles"
+dotfilebase="$HOME/.dotfiles"
 
 HISTFILE=~/.zhistory
 
@@ -6,5 +6,5 @@ HISTFILE=~/.zhistory
 source $dotfilebase/zsh/ohmy.zshrc
 
 # source own files
-for config (~/$dotfilebase/zsh/*.zsh) source $config
+for config ($dotfilebase/zsh/*.zsh) source $config
 
