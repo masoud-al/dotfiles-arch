@@ -31,4 +31,7 @@
     ~/.ipython/README:
         path: ipython/README
         create: true
+    ~/.byobu:
+        path: byobu
+        create: true	
 
