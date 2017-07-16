@@ -5,6 +5,9 @@ flashname=m348p
 filename=$dirname/$flashname
 
 #the follwoing rule should exist in udev for user-mode permission with group uucp
+## Set Group for USBasp and USBtiny
+#SUBSYSTEM=="usb", ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="05dc", GROUP="uucp"
+#SUBSYSTEM=="usb", ATTRS{idVendor}=="1781", ATTRS{idProduct}=="0c9f", GROUP="uucp"
 
 cmd='avrdude -p m328p -P usb -c usbtiny'
 
@@ -82,14 +85,16 @@ cmd='avrdude -p m328p -P usb -c usbtiny'
 
 mkdir -p  $dirname
 
+#ext='bin' format='r'
+ext='hex' format='i'
 
-($cmd flash:r:$filename-flash.bin:r)
-($cmd lfuse:r:$filename-lfuse.bin:r)
-($cmd hfuse:r:$filename-hfuse.bin:r)
-($cmd efuse:r:$filename-efuse.bin:r)
-($cmd lock:r:$filename-lock.bin:r)
-($cmd calibration:r:$filename-calibration.bin:r)
-($cmd signature:r:$filename-signature.bin:r)
+($cmd -U flash:r:$filename-flash.$ext:$format)
+($cmd -U lfuse:r:$filename-lfuse.$ext:$format)
+($cmd -U hfuse:r:$filename-hfuse.$ext:$format)
+($cmd -U efuse:r:$filename-efuse.$ext:$format)
+($cmd -U lock:r:$filename-lock.$ext:$format)
+($cmd -U calibration:r:$filename-calibration.$ext:$format)
+($cmd -U signature:r:$filename-signature.$ext:$format)
 
 #writing
 #($cmd -U flash:w:$filename-flash.bin:r)
