@@ -10,3 +10,6 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "utils/adb-sync"]
+	path = utils/adb-sync
+	url = https://github.com/google/adb-sync
