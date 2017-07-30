@@ -13,3 +13,6 @@
 [submodule "utils/adb-sync"]
 	path = utils/adb-sync
 	url = https://github.com/google/adb-sync
+[submodule "utils/debtap"]
+	path = utils/debtap
+	url = https://github.com/helixarch/debtap.git
