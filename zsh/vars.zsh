@@ -44,5 +44,4 @@ export FOAM_INST_DIR=/opt/OpenFOAM
 #source /opt/OpenFOAM/OpenFOAM-2.3.0/etc/bashrc
 
 
-export PATH=~/bin/:$PATH
-
+export PATH=~/bin:~/.cargo/bin:$PATH
