@@ -9,4 +9,4 @@ alias disable_ptrace='sudo echo 0 > /proc/sys/kernel/yama/ptrace_scope'
 #alias moddepgrah=lsmod | perl -e 'print "digraph \"lsmod\" {";<>;while(<>){@_=split/\s+/; print "\$
 alias certfingerprint='openssl x509 -noout -fingerprint -in'
 alias wifistat='iw dev wlp3s0 link'
-
+alias belloff='xset b off'

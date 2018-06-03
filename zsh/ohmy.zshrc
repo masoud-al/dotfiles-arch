@@ -20,7 +20,7 @@ ZSH_THEME="random"
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
-export UPDATE_ZSH_DAYS=3
+export UPDATE_ZSH_DAYS=10
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -52,7 +52,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git archlinux command-not-found common-aliases git-extras git-flow git-hubflow github screen systemd tmux)
-plugins=(archlinux sudo command-not-found common-aliases screen systemd tmux git git-extras git-flow git-hubflow github python pip)
+plugins=(archlinux sudo command-not-found common-aliases screen systemd tmux git git-extras git-flow git-hubflow github python pip cargo rsync docker)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration

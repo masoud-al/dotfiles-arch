@@ -20,10 +20,10 @@ export CFLAGS="-I$HOME/include"
 export  CMAKE_PREFIX_PATH=$HOME
 
 #GRUBI
-export GUROBI_HOME=$HOME/Libs/gurobi560/linux64
-export PATH=${GUROBI_HOME}/bin:$PATH
-export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
-export GRB_LICENSE_FILE=$HOME/gurobi.`hostname`.lic
+#export GUROBI_HOME=$HOME/Libs/gurobi560/linux64
+#export PATH=${GUROBI_HOME}/bin:$PATH
+#export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
+#export GRB_LICENSE_FILE=$HOME/gurobi.`hostname`.lic
 
 
 #sage http://www.sagemath.org/doc/reference/cmd/environ.html
@@ -34,13 +34,13 @@ export WINEPREFIX=$HOME/.wine32
 
 
 # ccach and colorgcc from https://wiki.archlinux.org/index.php/Ccache
-export PATH="/usr/lib/colorgcc/bin:$PATH"    # As per usual colorgcc installation, leave unchanged (don't add ccache)
-export CCACHE_PATH="/usr/bin"                 # Tell ccache to only use compilers here
-export CCACHE_DIR=/tmp/ccache                 # Tell ccache to use this path to store its cache
+#export PATH="/usr/lib/colorgcc/bin:$PATH"    # As per usual colorgcc installation, leave unchanged (don't add ccache)
+#export CCACHE_PATH="/usr/bin"                 # Tell ccache to only use compilers here
+#export CCACHE_DIR=/tmp/ccache                 # Tell ccache to use this path to store its cache
 
 unset GREP_OPTIONS
 
-export FOAM_INST_DIR=/opt/OpenFOAM
+#export FOAM_INST_DIR=/opt/OpenFOAM
 #source /opt/OpenFOAM/OpenFOAM-2.3.0/etc/bashrc
 
 
