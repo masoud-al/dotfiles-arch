@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+keras = "*"
+theano = "*"
+tensorflow = "*"
+tensorflow-hub = "*"
+scikit-learn = "*"
+opencv-python = "*"
+matplotlib = "*"
+pandas = "*"
+spacy = "*"
+nltk = "*"
+blaze = "*"
+seaborn = "*"
+mxnet = "*"
+torch = "*"
+torchvision = "*"
+scikit-image = "*"
+pygraphviz = "*"
+netron = "*"
+visualdl = "*"
+gpustat = "*"
+nvidia-ml-py = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
