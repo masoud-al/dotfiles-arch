@@ -25,6 +25,7 @@ netron = "*"
 visualdl = "*"
 gpustat = "*"
 nvidia-ml-py = "*"
+gym = "*"
 
 [dev-packages]
 
