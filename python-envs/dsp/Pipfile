@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 pyfda = "*"
+scikit-dsp-comm = "*"
+scikit-rf = "*"
 
 [dev-packages]
 
