@@ -45,3 +45,9 @@ unset GREP_OPTIONS
 
 
 export PATH=~/bin:~/.cargo/bin:$PATH
+
+export PATH=~/.local/bin:$PATH
+
+#Zephyr
+export ZEPHYR_TOOLCHAIN_VARIANT=zephyr
+export ZEPHYR_SDK_INSTALL_DIR=$HOME/Prgs/zephyr-sdk
