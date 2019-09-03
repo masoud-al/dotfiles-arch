@@ -15,3 +15,11 @@ Make all journal files contain no data older than 2 weeks.
 ```sh
 journalctl --vacuum-time=2weeks
 ```
+
+## Docker
+
+Remove unnecessary images before
+
+```sh
+docker rmi $(sudo docker images --filter "dangling=true" -q --no-trunc)
+```

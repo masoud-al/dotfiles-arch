@@ -111,3 +111,8 @@ function pdfpextr()
        ${3}
 }
 
+function docker_images()
+{
+  docker images  | grep -v REPOSITORY | awk '{print $1}' | xargs -L1 docker pull
+  docker images  | grep '<none>' | awk '{print $3}' | xargs -L1 docker rmi
+}
